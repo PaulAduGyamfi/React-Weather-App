@@ -1,38 +1,74 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Alata|Oswald|Six+Caps&display=swap');
+html{
+  height: 100%;
+}
+body{
+  background-color: #022c43;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
+  height: 100%;
+  color: #ffd700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap{
+  margin: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#main {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input{
+  text-align: center;
+  margin: 10px;
+  background-color: #053f5e;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 150px;
+  padding: 5px 15px;
+  font-size: 15px;
+  color: #ffd700;
+  border-radius: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+/* input:focus{
+  outline: 0.5px solid #ffd90033;
+} */
+::-webkit-input-placeholder{
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #115173;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 30px;
+  outline: none;
+  border: none;
+  background-color: #ffd700;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.location{
+  font-size: 20px;
+}
+
+.degrees{
+  font-size: 20px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  background-color: #11517331;
+  font-family: 'Alata', sans-serif;
+  font-weight: bold;
+  padding: 40px 100px;
+  border-radius: 4px;
 }
